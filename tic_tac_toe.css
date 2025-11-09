@@ -1,0 +1,49 @@
+h1{
+    text-align: center;
+}
+.outterbox{
+    height: 100vh;
+    width: 100vw;
+    background-color: #FBF3D5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+*{
+    font-size: 60;
+    color:black
+}
+.button{
+    width: 100px;
+    border-radius: 10px;
+    margin-top: 60px;
+    background-color: #D6A99D;
+}
+.box{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    align-items: center;
+    font-size: 70px;
+}
+.innerbox{
+    width:400px;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+}
+.box{
+    height: 100px;
+    width: 100px;
+    background-color: #9CAFAA;
+    border-color: black;
+    border-radius: 10px;
+    margin: 10px;
+    
+}
+.win{
+
+    text-align: center;
+    font-size: 60px;
+}
